@@ -20,7 +20,7 @@
 
 #include <QScopedPointer>
 
-#include <ApiRequest.h>
+#include <mygpo-qt/ApiRequest.h>
 
 #include "addpodcastpage.h"
 

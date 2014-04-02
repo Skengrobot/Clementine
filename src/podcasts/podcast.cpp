@@ -21,7 +21,7 @@
 #include <QDataStream>
 #include <QDateTime>
 
-#include <Podcast.h>
+#include <mygpo-qt/Podcast.h>
 
 const QStringList Podcast::kColumns = QStringList() << "url"
                                                     << "title"

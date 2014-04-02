@@ -20,7 +20,7 @@
 #include "podcast.h"
 #include "core/closure.h"
 
-#include <ApiRequest.h>
+#include <mygpo-qt/ApiRequest.h>
 
 #include <QMessageBox>
 

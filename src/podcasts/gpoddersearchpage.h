@@ -20,7 +20,7 @@
 
 #include "addpodcastpage.h"
 
-#include <ApiRequest.h>
+#include <mygpo-qt/ApiRequest.h>
 
 class QNetworkAccessManager;
 

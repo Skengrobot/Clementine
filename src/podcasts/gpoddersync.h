@@ -27,7 +27,7 @@
 #include <QSharedPointer>
 #include <QUrl>
 
-#include <ApiRequest.h>
+#include <mygpo-qt/ApiRequest.h>
 
 class Application;
 class Podcast;
