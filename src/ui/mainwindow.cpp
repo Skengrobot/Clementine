@@ -421,9 +421,9 @@ MainWindow::MainWindow(Application* app, SystemTrayIcon* tray_icon, OSD* osd,
   ui_->back_button->setDefaultAction(ui_->action_previous_track);
   ui_->pause_play_button->setDefaultAction(ui_->action_play_pause);
   ui_->stop_button->setDefaultAction(ui_->action_stop);
-  ui_->love_button->setDefaultAction(ui_->action_love);
+  //ui_->love_button->setDefaultAction(ui_->action_love);
   ui_->scrobbling_button->setDefaultAction(ui_->action_toggle_scrobbling);
-  ui_->clear_playlist_button->setDefaultAction(ui_->action_clear_playlist);
+  //ui_->clear_playlist_button->setDefaultAction(ui_->action_clear_playlist);
   ui_->playlist->SetActions(
       ui_->action_new_playlist, ui_->action_load_playlist,
       ui_->action_save_playlist,
