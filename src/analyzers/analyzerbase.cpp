@@ -47,8 +47,7 @@ template class Analyzer::Base<QWidget>;
 
 Analyzer::Base::Base(QWidget* parent, uint scopeSize)
     : QWidget(parent),
-      m_timeout(40)  // msec
-      ,
+      m_timeout(40), // msec
       m_fht(new FHT(scopeSize)),
       m_engine(nullptr),
       m_lastScope(512),
